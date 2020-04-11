@@ -32,3 +32,5 @@ function run(pattern) {
 run('blog/Post.gql')
 run('**/Post.gql')
 run('**/*.gql')
+run(['blog/Post.gql','accounts/User.gql'])
+run(['accounts/User.gql','blog/Post.gql'])
